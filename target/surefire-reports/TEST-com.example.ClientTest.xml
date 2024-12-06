@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.ClientTest" time="0.088" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/test-classes:/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/classes:/Users/edouardgaignerot/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/surefire/surefirebooter-20241009143628458_3.jar /Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/surefire 2024-10-09T14-36-28_364-jvmRun1 surefire-20241009143628458_1tmp surefire_0-20241009143628458_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.example.ClientTest"/>
+    <property name="surefire.test.class.path" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/test-classes:/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/classes:/Users/edouardgaignerot/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/edouardgaignerot"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app/target/surefire/surefirebooter-20241009143628458_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="user.name" value="edouardgaignerot"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="maven.ext.class.path" value="/Users/edouardgaignerot/.vscode/extensions/oracle.oracle-java-22.1.2/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/edouardgaignerot/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rh/mj2n2hlj723_1ydqx609c0g00000gn/T/"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/Users/edouardgaignerot/Desktop/Ecole/JUNIA/AP4/JAVA/my-app"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/edouardgaignerot/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testGetNom" classname="com.example.ClientTest" time="0.016"/>
+  <testcase name="testSetNom" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testGetPrenom" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testSetPrenom" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testGetAdresse" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testSetAdresse" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testGetTelephone" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testSetTelephone" classname="com.example.ClientTest" time="0.001"/>
+  <testcase name="testEstPro" classname="com.example.ClientTest" time="0.0"/>
+  <testcase name="testOuvrirCompteStandard" classname="com.example.ClientTest" time="0.004">
+    <system-out><![CDATA[Compte standard ajouté pour Doe John
+Un client standard ne peut pas avoir plus de 1 comptes standard.
+]]></system-out>
+  </testcase>
+  <testcase name="testOuvrirCompteEpargne" classname="com.example.ClientTest" time="0.0">
+    <system-out><![CDATA[Compte d’épargne ouvert pour Doe John
+Ce client a déjà un compte d’épargne.
+]]></system-out>
+  </testcase>
+  <testcase name="testAfficherComptes" classname="com.example.ClientTest" time="0.001">
+    <system-out><![CDATA[Compte standard ajouté pour Doe John
+Compte d’épargne ouvert pour Doe John
+Comptes de Doe John:
+[Compte Bancaire avec un solde de: 1000.0 EUR]
+Compte Épargne avec un solde de: 5000.0 EUR et un taux d'intérêt de: 2.0%
+]]></system-out>
+  </testcase>
+  <testcase name="testToString" classname="com.example.ClientTest" time="0.0"/>
+</testsuite>
